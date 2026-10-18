@@ -26,7 +26,7 @@
     <style>
         body { font-family: 'Cairo', sans-serif; }
         .hero-bg {
-            background: linear-gradient(rgba(15, 23, 42, 0.88), rgba(15, 23, 42, 0.92)), url('https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1920&q=80');
+            background: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.90)), url('https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1920&q=80');
             background-size: cover;
             background-position: center;
         }
@@ -51,7 +51,7 @@
     <header class="sticky top-0 z-50 bg-white shadow-md">
         <div class="container mx-auto px-4 py-3 flex justify-between items-center">
             <div class="flex items-center gap-2">
-                <div class="bg-primary text-white p-2.5 rounded-xl font-black text-xl shadow-lg flex items-center justify-center">
+                <div class="bg-primary text-white p-2 rounded-xl font-black text-xl shadow-lg">
                     <i class="fa-solid fa-fire-flame-curved"></i>
                 </div>
                 <div>
@@ -126,52 +126,58 @@
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- Service 1: صيانة أفران الغاز والشعلات -->
-                <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition border border-gray-100 flex flex-col">
-                    <div class="h-52 w-full overflow-hidden bg-gray-100 relative">
-                        <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80" alt="صيانة أفران الغاز والشعلات" class="w-full h-full object-cover hover:scale-105 transition duration-500">
-                        <span class="absolute bottom-3 right-3 bg-primary text-white text-xs px-3 py-1 rounded-lg font-bold shadow">صيانة فورية</span>
+                <!-- Service 1 -->
+                <div class="bg-gray-50 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition border border-gray-100 flex flex-col">
+                    <div class="h-48 w-full overflow-hidden bg-gray-200">
+                        <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=600&q=80" alt="صيانة أفران الغاز" class="w-full h-full object-cover">
                     </div>
                     <div class="p-6 flex-1 flex flex-col justify-between">
                         <div>
+                            <div class="w-12 h-12 bg-orange-100 text-primary rounded-xl flex items-center justify-center text-xl font-bold mb-4">
+                                <i class="fa-solid fa-fire"></i>
+                            </div>
                             <h4 class="text-xl font-bold text-secondary mb-2">صيانة أفران الغاز والشعلات</h4>
                             <p class="text-gray-600 text-sm leading-relaxed mb-4">إصلاح ضعف الشعلات، انسداد العيون، صيانة مفاتيح التشغيل، وإصلاح مشاكل توزيع الحرارة وإشعال الفرن.</p>
                         </div>
-                        <a href="https://wa.me/966578458796?text=أرغب في الاستفسار عن صيانة أفران الغاز" class="text-primary font-bold hover:text-orange-600 flex items-center gap-2 mt-2">
+                        <a href="https://wa.me/966578458796?text=أرغب في الاستفسار عن صيانة أفران الغاز" class="text-primary font-bold hover:text-orange-600 flex items-center gap-2">
                             اطلب الخدمة الآن <i class="fa-solid fa-arrow-left text-xs"></i>
                         </a>
                     </div>
                 </div>
 
-                <!-- Service 2: صيانة أفران البلت إن المدمجة -->
-                <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition border border-gray-100 flex flex-col">
-                    <div class="h-52 w-full overflow-hidden bg-gray-100 relative">
-                        <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80" alt="صيانة أفران البلت إن المدمجة" class="w-full h-full object-cover hover:scale-105 transition duration-500">
-                        <span class="absolute bottom-3 right-3 bg-secondary text-white text-xs px-3 py-1 rounded-lg font-bold shadow">بلت إن</span>
+                <!-- Service 2 -->
+                <div class="bg-gray-50 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition border border-gray-100 flex flex-col">
+                    <div class="h-48 w-full overflow-hidden bg-gray-200">
+                        <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=600&q=80" alt="أفران البلت إن" class="w-full h-full object-cover">
                     </div>
                     <div class="p-6 flex-1 flex flex-col justify-between">
                         <div>
+                            <div class="w-12 h-12 bg-orange-100 text-primary rounded-xl flex items-center justify-center text-xl font-bold mb-4">
+                                <i class="fa-solid fa-kitchen-set"></i>
+                            </div>
                             <h4 class="text-xl font-bold text-secondary mb-2">صيانة أفران البلت إن المدمجة</h4>
                             <p class="text-gray-600 text-sm leading-relaxed mb-4">فك وتركيب وصيانة الأفران المسطحة والمدمجة (Built-in) بجميع الماركات العالمية بدقة واحترافية كاملة.</p>
                         </div>
-                        <a href="https://wa.me/966578458796?text=أرغب في الاستفسار عن صيانة أفران البلت إن" class="text-primary font-bold hover:text-orange-600 flex items-center gap-2 mt-2">
+                        <a href="https://wa.me/966578458796?text=أرغب في الاستفسار عن صيانة أفران البلت إن" class="text-primary font-bold hover:text-orange-600 flex items-center gap-2">
                             اطلب الخدمة الآن <i class="fa-solid fa-arrow-left text-xs"></i>
                         </a>
                     </div>
                 </div>
 
-                <!-- Service 3: فحص تسريب الغاز والأمان -->
-                <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition border border-gray-100 flex flex-col">
-                    <div class="h-52 w-full overflow-hidden bg-gray-100 relative">
-                        <img src="https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=800&q=80" alt="فحص تسريب الغاز والأمان" class="w-full h-full object-cover hover:scale-105 transition duration-500">
-                        <span class="absolute bottom-3 right-3 bg-emerald-600 text-white text-xs px-3 py-1 rounded-lg font-bold shadow">حماية وأمان</span>
+                <!-- Service 3 -->
+                <div class="bg-gray-50 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition border border-gray-100 flex flex-col">
+                    <div class="h-48 w-full overflow-hidden bg-gray-200">
+                        <img src="https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=600&q=80" alt="فحص أمان الغاز" class="w-full h-full object-cover">
                     </div>
                     <div class="p-6 flex-1 flex flex-col justify-between">
                         <div>
+                            <div class="w-12 h-12 bg-orange-100 text-primary rounded-xl flex items-center justify-center text-xl font-bold mb-4">
+                                <i class="fa-solid fa-shield-halved"></i>
+                            </div>
                             <h4 class="text-xl font-bold text-secondary mb-2">فحص تسريب الغاز والأمان</h4>
                             <p class="text-gray-600 text-sm leading-relaxed mb-4">فحص صمامات الأمان، أنابيب التوصيل، والكشف عن أي تسريبات غاز محتملة لضمان أمان منزلك وعائلتك بالكامل.</p>
                         </div>
-                        <a href="https://wa.me/966578458796?text=أرغب في الاستفسار عن فحص تسريب الغاز والأمان" class="text-primary font-bold hover:text-orange-600 flex items-center gap-2 mt-2">
+                        <a href="https://wa.me/966578458796?text=أرغب في الاستفسار عن فحص تسريب الغاز والأمان" class="text-primary font-bold hover:text-orange-600 flex items-center gap-2">
                             اطلب الخدمة الآن <i class="fa-solid fa-arrow-left text-xs"></i>
                         </a>
                     </div>
@@ -216,8 +222,8 @@
                     </div>
                 </div>
                 <div class="relative">
-                    <div class="rounded-3xl shadow-2xl w-full h-[450px] overflow-hidden bg-slate-200 relative">
-                        <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80" alt="صيانة أفران منزلية" class="w-full h-full object-cover">
+                    <div class="rounded-3xl shadow-2xl w-full h-[450px] overflow-hidden bg-gray-200">
+                        <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80" alt="صيانة أفران منزلية" class="w-full h-full object-cover">
                     </div>
                     <div class="absolute -bottom-6 -right-6 bg-secondary text-white p-6 rounded-2xl shadow-xl hidden sm:block border border-gray-700">
                         <p class="text-3xl font-black text-primary mb-1">+10 سنوات</p>
